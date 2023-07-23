@@ -1,0 +1,303 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Literata:wght@300;400;500;600;800&family=Mukta:wght@400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url(./Assets/dashboard\ bkg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+}
+
+.sidebar {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  background-color: #02293d;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding: 28px;
+}
+
+.text-with-icon {
+  display: flex;
+  column-gap: 20px;
+}
+
+.text-with-icon p {
+  font-size: 16px;
+  color: white;
+  font-family: "Lato", sans-serif;
+}
+
+.dashboard-logo h2 {
+  font-size: 24px;
+  color: white;
+  font-family: "Lato", sans-serif;
+  margin-bottom: 24px;
+}
+
+.dashboard-logo hr {
+  color: #efefef;
+  opacity: 50%;
+}
+
+.dashboard-sidebar {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2.5rem;
+}
+
+.dashboard-logout {
+  margin-top: 10rem;
+}
+
+.dashboard-search {
+  background-color: #02293d;
+  margin-left: 16rem;
+  /* width: 100%; */
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 1.2rem;
+  padding-right: 5rem;
+}
+
+.dashboard-search form {
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 535px;
+  border-radius: 100px;
+  padding: 0.5rem;
+}
+
+.dashboard-search img {
+  margin-left: 4px;
+}
+
+.dashboard-search input {
+  background: none;
+  border: none;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  margin-left: 16px;
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  transition-duration: 250ms;
+}
+
+.dashboard-search input::placeholder {
+  color: white;
+  font-family: "Lato", sans-serif;
+  opacity: 100%;
+  transition-duration: 250ms;
+}
+
+.dashboard-search input:focus::placeholder {
+  opacity: 0;
+}
+
+.dashboard-noti {
+  border-radius: 100%;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 4px;
+  margin-left: 1.5rem;
+}
+
+.dashboard-profile {
+  background-image: url(./Assets/person.jpg);
+  height: 40px;
+  width: 40px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 100%;
+  margin-left: 1.5rem;
+}
+
+.search-right {
+  display: flex;
+}
+
+.booking-main {
+  margin-left: 16rem;
+  padding: 2rem;
+  padding-right: 5rem;
+}
+
+/* Plan plage css start here */
+
+.plan-clicked-main{
+  margin-left: 16rem;
+  padding: 2rem;
+}
+
+.bcard-tag {
+  display: inline-flex;
+  padding: 4px 4px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(9.6px);
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+}
+
+.back-btn{
+  display: flex;
+  column-gap: 12px;
+  color: white;
+  font-family: "Lato";
+}
+
+.plan-title{
+  display: flex;
+  padding: 4px 7px;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(9.6px);
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  width: 70%;
+  height: 24px;
+  margin-top: 1rem;
+}
+
+.plan-title h1{
+  padding-left: 1rem;
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  
+}
+.plan-days{
+  margin-top: 1rem;
+}
+
+.plan-days ul{
+  margin: 1rem;
+}
+
+.plan-content{
+  margin-top: 1rem;
+  font-family: "Lato", sans-serif ;
+  color: white;
+  position: absolute;
+  top: 13rem;
+  overflow-y: auto;
+  max-height: 65vh;
+  width: 55vw;
+}
+
+.plan-content span{
+  margin-bottom: 1rem;
+}
+
+.plan-images{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  column-gap: 2rem;
+  margin-bottom: 1rem;
+}
+.plan-images img{
+  width: 150px;
+  height: 90px;
+  border-radius: 8px;
+}
+
+.plan-clicked-main{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.title-container{
+  display: flex;
+}
+
+.right-sidebar{
+  width: 210px;
+  height: 412px;
+  padding: 1rem;
+  margin: 1rem;
+  background-color: rgba(0, 0, 0, 0.15);
+  font-family: "Lato", sans-serif;
+  border-radius: 16px;
+}
+
+.right-sidebar form{
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: .6rem;
+}
+
+.right-sidebar p{
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.right-sidebar button{
+  border: none;
+  background-color: #B2D3F2;
+  font-family: "Lato";
+  height: 36px;
+  border-radius: 8px;
+  font-size: 13px;
+  color: #023047;
+  font-weight: 600;
+  margin-top: .6rem;
+}
+
+.right-sidebar button:hover{
+  cursor: pointer;
+}
+
+.right-sidebar img{
+  width: 100%;
+  height: 130px;
+  border-radius: 8px;
+}
+
+.right-sidebar p{
+  color: white;
+}
+
+.right-sidebar input{
+  height:30px;
+  border: none;
+  border-radius: 4px;
+  background-color: #02293d;
+  color: white;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  padding-left: 1rem;
+  font-family: "Lato";
+}
+
+.right-sidebar input:focus{
+  outline: none;
+}

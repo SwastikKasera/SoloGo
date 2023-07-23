@@ -1,0 +1,222 @@
+.popular-place {
+  width: 100vw;
+  height: 250%;
+  background-color: #023047;
+  position: relative;
+  border-radius: 54px 54px 0 0;
+  margin-top: -3rem;
+}
+
+.popular-place-heading {
+  font-size: 4rem;
+  color: #efefef;
+  font-family: "Literata", serif;
+  font-weight: 400;
+  padding-top: 4rem;
+  text-align: center;
+  /* margin-top: 4rem; */
+}
+
+span {
+  color: #b2d3f2;
+}
+
+.popular-place-text{
+    font-family: "Lato", sans-serif;
+    color: #b2d3f2;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 2rem;
+    text-decoration: underline;
+}
+.view-all{
+    flex-shrink: 0; /* Do not shrink the button */
+    border: 2px solid #efefef;
+    min-width: 100px; /* Set a minimum width to ensure equal spacing */
+    height: 36px;
+    padding: 2.7px 13.5px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7.2px;
+    background-color: transparent;
+    color: #efefef;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.btn-tertiary{
+    text-align: right;
+    margin-right: 3rem;
+    margin-top: 2rem;
+}
+
+
+
+/* card css start here */
+.card-detail-lower {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 10px;
+    height: 50px;
+    flex-wrap: wrap; /* Wrap elements to a new line if there's not enough space */
+}
+
+.horizontal-scroll-container {
+    margin-left: 5rem;
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    white-space: nowrap;
+    margin-top: 2rem;
+}
+
+.card {
+    flex: 0 0 367.2px;
+    margin: 10px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.card-img {
+    width: 100%;
+    height: 476.4px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.card-details {
+    margin-top: -10rem;
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(8.5px);
+    -webkit-backdrop-filter: blur(8.5px);
+    border-radius: 10px;
+    height: 116px;
+    width: 300px;
+    padding: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.card-detail-upper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -1rem;
+    height: 50px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+}
+
+.card-btn {
+    border: none;
+    display: flex;
+    width: 100px;
+    height: 36px;
+    padding: 2.7px 13.5px;
+    justify-content: center;
+    align-items: center;
+    gap: 6.75px;
+    flex-shrink: 0;
+    border-radius: 7.2px;
+    background: #023047;
+    color: #efefef;
+    font-family: "Mukta", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.card-title {
+    font-size: 24px;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    color: #efefef;
+}
+
+.card-location {
+    font-size: 14px;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    color: #efefef;
+}
+
+.card-description {
+    font-size: 14px;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    color: #efefef;
+    white-space: break-spaces;
+}
+
+.card-rating {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    height: 2em;
+    background-color: #023047;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 4px;
+    color: #efefef;
+    font-family: "Mukta", sans-serif;
+    text-align: center;
+}
+
+.card-description {
+    flex: 1; /* Take all available space */
+}
+
+.card-btn {
+    flex-shrink: 0; /* Do not shrink the button */
+    min-width: 100px; /* Set a minimum width to ensure equal spacing */
+    height: 36px;
+    padding: 2.7px 13.5px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7.2px;
+    background: #023047;
+    color: #efefef;
+    font-family: "Mukta", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* arrows css */
+
+.arrow {
+    position: absolute;
+    top: 75%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: #023047;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50%;
+    z-index: 10;
+  }
+  
+  .left-arrow {
+    left: 10px;
+  }
+  
+  .right-arrow {
+    right: 10px;
+  }
+  
+  /* Additional styles for the arrow hover effect (optional) */
+  .arrow:hover {
+    background-color: #023047;
+    color: #fff;
+    transition: background-color 0.3s ease;
+  }

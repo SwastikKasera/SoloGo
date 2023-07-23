@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/planCreate.css">
+    
+</head>
+<body>
+    <section>
+        <div class="sidebar">
+            <div class="dashboard-logo">
+                <h2>SoloGo</h2>
+                <hr>
+            </div>
+            <div class="dashboard-sidebar">
+                <div class="text-with-icon">
+                    <img src="./icons/dashboard.svg" alt="">
+                    <p>Dashboard</p>
+                </div>
+                <div class="text-with-icon">
+                    <img src="./icons/plan.svg" alt="">
+                    <p>Plans</p>
+                </div>
+                <div class="text-with-icon">
+                    <img src="./icons/sheet.svg" alt="">
+                    <p>Expenses</p>
+                </div>
+                <div class="text-with-icon">
+                    <img src="./icons/sparkle.svg" alt="">
+                    <p>Reviews</p>
+                </div>
+                <div class="text-with-icon">
+                    <img src="./icons/hotel.svg" alt="">
+                    <p>Bookings</p>
+                </div>
+            </div>
+            <div class="dashboard-logout">
+                <div class="text-with-icon">
+                    <img src="./icons/log-out.svg" alt="">
+                    <p>Log Out</p>
+                </div>
+            </div>
+        </div>
+    </section> 
+    <section>
+        <div class="dashboard-search">
+            <form action="">
+                <img src="./icons/search.svg" alt="">
+                <input type="search" name="" placeholder="Search" id="mainsearch">
+            </form>
+            <div class="search-right">
+                <div class="dashboard-noti">
+                    <img src="./icons/bell.svg" alt="">
+                </div>
+                <div class="dashboard-profile">
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="create-plan-form">
+        <div class="form">
+            <form action="">
+                <h2>Create a Plan</h2>
+                <div class="form-text">
+                    <div class="first-col">
+                        <div class="start">
+                            <label for="strt">Start From</label>
+                            <input type="text" id="strt">
+                        </div>
+                        <div class="interest">
+                            <label for="inter">Your Interests</label>
+                            <input type="text" id="inter">
+                        </div>
+                        <div class="start-date">
+                            <label for="srt">Starting Date</label>
+                            <input type="date" id="srt">
+                        </div>
+                        <div class="min-budget">
+                            <label for="miniBudget">Minimum Budget</label>
+                            <input type="tel" id="miniBudget">
+                        </div>
+                    </div>
+                    
+                    <div class="second-col">
+                        <div class="final">
+                            <label for="fnl">Final Destination</label>
+                            <input type="text" id="fnl">
+                        </div>
+                        <div class="duration">
+                            <label for="dur">Duration of Trip</label>
+                            <select name="select" id="dur">
+                                <!-- <option value="sel">--select--</option> -->
+                                <option value="" selected disabled >--Select--</option>
+                                <option value="1">1 Days</option>
+                                <option value="2">2 Days</option>
+                                <option value="3">3 Days</option>
+                                <option value="4">4 Days</option>
+                                <option value="5">5 Days</option>
+                                <option value="6">6 Days</option>
+                                <option value="7">7 Days</option>
+                                <option value="8">8 Days</option>
+                                <option value="9">9 Days</option>
+                                <option value="10">10 Days</option>
+                            </select>
+                        </div>
+                        <div class="return-date">
+                            <label for="rtn">Returning Date</label>
+                            <input type="date" id="rtn">
+                        </div>
+                        <div class="max-budget">
+                            <label for="maxBudget">Maximum Budget</label>
+                            <input type="tel" id="maxBudget">
+                        </div>
+                    </div>
+                    <div class="third-col">
+                        <label for="add-msg">Additional Message</label>
+                        <textarea name="" id="add-msg" cols="30" rows="10"></textarea>
+                    </div>
+                </div>
+            </form>
+            <div class="condition">
+                <div class="check">
+                    <input type="checkbox" id="chck">
+                    <label for="chck">I agree that the plan generated may have some issue, I hereby taking <br> the responsibility of it.</label>
+                </div>
+                <button>Make My Plan</button>
+            </div>
+        </div>  
+    </section>
+</body>
+</html>

@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Literata:wght@300;400;500;600;800&family=Mukta:wght@400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url(./Assets/dashboard\ bkg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+}
+
+.sidebar {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  background-color: #02293d;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding: 28px;
+}
+
+.text-with-icon {
+  display: flex;
+  column-gap: 20px;
+}
+
+.text-with-icon p {
+  font-size: 16px;
+  color: white;
+  font-family: "Lato", sans-serif;
+}
+
+.dashboard-logo h2 {
+  font-size: 24px;
+  color: white;
+  font-family: "Lato", sans-serif;
+  margin-bottom: 24px;
+}
+
+.dashboard-logo hr {
+  color: #efefef;
+  opacity: 50%;
+}
+
+.dashboard-sidebar {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2.5rem;
+}
+
+.dashboard-logout {
+  margin-top: 10rem;
+}
+
+.dashboard-search {
+  background-color: #02293d;
+  margin-left: 16rem;
+  /* width: 100%; */
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 1.2rem;
+  padding-right: 5rem;
+}
+
+.dashboard-search form {
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 535px;
+  border-radius: 100px;
+  padding: 0.5rem;
+}
+
+.dashboard-search img {
+  margin-left: 4px;
+}
+
+.dashboard-search input {
+  background: none;
+  border: none;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  margin-left: 16px;
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  transition-duration: 250ms;
+}
+
+.dashboard-search input::placeholder {
+  color: white;
+  font-family: "Lato", sans-serif;
+  opacity: 100%;
+  transition-duration: 250ms;
+}
+
+.dashboard-search input:focus::placeholder {
+  opacity: 0;
+}
+
+.dashboard-noti {
+  border-radius: 100%;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 4px;
+  margin-left: 1.5rem;
+}
+
+.dashboard-profile {
+  background-image: url(./Assets/person.jpg);
+  height: 40px;
+  width: 40px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 100%;
+  margin-left: 1.5rem;
+}
+
+.search-right {
+  display: flex;
+}
+
+.booking-main {
+  margin-left: 16rem;
+  padding: 2rem;
+  padding-right: 5rem;
+}
+
+.booking-btn-outline {
+  display: flex;
+  padding-left: 10px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4.816px;
+  border-radius: 4.816px;
+  border: 2px solid #efefef;
+  font-family: "Lato", sans-serif;
+  background: none;
+  color: white;
+}
+
+.booking-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.booking-top h2 {
+  font-family: "Lato", sans-serif;
+  font-size: 22px;
+  color: white;
+}
+
+/* card css start here */
+.booking-card-content {
+  margin-top: 1.5rem;
+  display: flex;
+  column-gap: 1.5rem;
+  overflow-x: scroll;
+  white-space: nowrap;
+
+}
+
+.booking-card {
+  padding: 12px;
+  background-color: #02293d;
+  width: 200px;
+  height: 250px;
+  color: white;
+  border-radius: 8px;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.bcard-tag {
+  display: flex;
+  padding: 4px 7px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(9.6px);
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+}
+
+.bcard-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.bcard-img {
+  background-image: url(./Assets/hotel1.jpg);
+  height: 125px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+
+.dbtn-main {
+  background-color: #b2d3f2;
+  height: 24px;
+  width: 136px;
+  border: none;
+  color: #023047;
+  border-radius: 4px;
+}
+
+.bcard-btntag {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.bcard-content p {
+  font-weight: 500;
+  margin-top: 8px;
+  font-size: 10px;
+  color: #8c8c8c;
+  font-family: "Lato", sans-serif;
+}
+
+.bcard-content h2 {
+  font-size: 16px;
+  margin-top: 8px;
+  font-family: "Lato", sans-serif;
+}

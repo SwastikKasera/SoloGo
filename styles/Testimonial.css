@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Literata:wght@400;500;600;800&family=Mukta:wght@400;500&display=swap');
+
+body, p {
+    margin: 0;
+    padding: 0;
+}
+.testimonial{
+    margin-top: 4rem;
+    margin-left: 5rem;
+    padding-bottom: 2rem;
+}
+
+.testimonial-container {
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.testimonial-card {
+    padding: 1rem;
+    border-radius: 1rem;
+    display: inline-block;
+    margin-right: 1rem;
+    width: 360px;
+    height: 200px;
+    background-color: #efefef;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.tcard-top {
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
+    /* padding: 1rem; */
+}
+
+.card-bottom {
+    display: flex;
+    flex-direction: column;
+    row-gap: .5rem;
+    font-family: "Lato", sans-serif;
+    text-align: justify;
+    width: 310px;
+    margin-top: .5rem;
+}
+
+.card-bottom img {
+    width: 30px;
+    height: 20px;
+}
+
+.tcard-top p {
+    margin-left: 2.5rem;
+}
+
+.tcard-name {
+    font-size: 20px;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+}
+
+.tcard-location {
+    margin-top: .4rem;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+}
+
+.tcard-profile {
+    background-image: url("../Assets/person.jpg");
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+}
+
+.tcard-userinfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonial-text{
+    white-space: break-spaces;
+    line-height: 20px;
+}
+
+.testimonial-heading{
+    font-size: 64px;
+    font-family: Literata;
+    margin-top: 2rem;
+    text-align: center;
+    color: #023047;
+    font-weight: 500;
+}

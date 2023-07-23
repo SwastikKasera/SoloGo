@@ -1,0 +1,90 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Literata:wght@400;500;600;800&family=Mukta:wght@400;500&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+}
+body,
+html {
+  height: 100vh;
+}
+.overlay{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    top: 2rem;
+    font-family: "Lato", sans-serif;
+}
+.footer {
+  background-image: url("../Assets/Login\ page.svg");
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.right-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+.right-side .text {
+  color: #efefef;
+  margin-bottom: 20px;
+}
+.right-side .text h2 {
+  font-size: 32px;
+  font-weight: 700;
+}
+.right-side .text p {
+  font-size: 20px;
+  font-weight: 600;
+}
+.right-side .logo {
+  display: flex;
+  flex-direction: row;
+  margin-top: 9rem;
+  align-items: center;
+}
+.right-side .logo img {
+  height: 24px;
+  width: 24px;
+  margin-right: 15px;
+  /* font-weight: 24px; */
+}
+.left-side {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: 2rem;
+}
+.left-side .important {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  margin-right: 50px;
+}
+.left-side .services {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+}
+.left-side .services a {
+  color: #fff;
+  margin: 18px;
+  text-decoration: none;
+}
+.left-side .important a {
+  color: #fff;
+  margin: 18px;
+  text-decoration: none;
+}
+.left-side .services #head,
+.left-side .important #head {
+  text-decoration: underline;
+}
