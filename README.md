@@ -1,5 +1,7 @@
 SoloGo
 
+Link:  [trysologo.netlify.app](https://trysologo.netlify.app)
+
 *Introduction* : 
 SoloGo is an exclusive website tailored specifically for solo travelers, offering comprehensive assistance in trip planning, budget management, safety measures, and guidance to visit renowned destinations, among other valuable features.The website's primary objective is to assist solo travelers in meticulously planning their trips. With SoloGo, users can access detailed information about travel destinations, including renowned landmarks, hidden gems, local attractions, and cultural experiences. This wealth of knowledge empowers solo travelers to make informed decisions and create personalized itineraries that align with their interests and desires.
 
